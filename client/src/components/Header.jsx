@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="">
      <nav class="fixed top-0 left-0 w-full h-auto bg-gray-800 z-10 flex items-center justify-around">
-      <span className="logo"> <img src="./../src/assets/LOGO.png" alt="logo" ></img></span>
+      <span className="logo"> <img src="./../assets/LOGO-Pfw_Nvmm.png" alt="logo" ></img></span>
       <h3 class="relative heading font-bold md:basis-1/6 text-2xl xs:basis-4/12 z-50 mb-5 mt-5 ">News Jungle</h3>
 
         <ul className={active ? "nav-ul flex gap-11 md:gap-14 xs:gap-12 lg:basis-3/6 md:basis-4/6 md:justify-end active" : " nav-ul flex gap-14 lg:basis-3/6 md:basis-4/6 justify-end"}>
