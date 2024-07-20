@@ -17,7 +17,7 @@ function News() {
   }
   let pageSize = 12;
   useEffect(() => {
-    fetch(`http://localhost:3000/all-news?page=${page}&pageSize=${pageSize}`)
+    fetch(`https://news-jungle-backend.onrender.com/all-news?page=${page}&pageSize=${pageSize}`)
       .then(response => {
         
         if (response.ok) {
